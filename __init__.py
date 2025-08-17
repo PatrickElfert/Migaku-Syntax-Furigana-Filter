@@ -9,11 +9,7 @@ def on_field_filter(field_text: str, field_name: str, filter_name: str, context)
     if filter_name != FILTER_NAME:
         return field_text
 
-    showInfo(f"  field_text: '{field_text}'")
-
     result = parse_migaku_syntax(field_text)     
-
-    showInfo(f"Result: '{result}'")
 
     return result
     

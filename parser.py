@@ -1,9 +1,7 @@
 import re
 
 def parse_migaku_syntax(text: str) -> str:
-    text = re.sub(r"</?t[^>]*>", "", text)
-    
-    pattern = re.compile(r"([^\s\[\]]+)\[([^\]]+)\]")
+    pattern = re.compile(r"([^<>\s\[\]]+)\[([^\]]+)\]")
 
     def replacer(match: re.Match[str]) -> str:
         base = match.group(1)
