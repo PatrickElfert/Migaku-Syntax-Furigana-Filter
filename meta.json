@@ -4,5 +4,6 @@
     "description": "Converts Migaku syntax annotations to HTML ruby tags for furigana display. Use {{migakuFurigana:FieldName}} in templates.",
     "author": "Patrick Elfert",
     "support_url": "https://github.com/PatrickElfert/Migaku-Syntax-Furigana-Filter",
+    "min_point_version": 45,
     "max_point_version": 0
 }  
