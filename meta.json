@@ -1,0 +1,7 @@
+{
+    "name": "Migaku-Syntax Furigana Filter",
+    "version": "0.1.0",
+    "description": "Adds a 'migakuFurigana' template filter to extract readings from migaku syntax.",
+    "author": "Patrick Elfert",
+    "support_url": "https://github.com/PatrickElfert"
+}
