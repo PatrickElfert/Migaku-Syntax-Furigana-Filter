@@ -1,7 +1,8 @@
 {
     "name": "Migaku-Syntax Furigana Filter",
-    "version": "0.1.0",
-    "description": "Adds a 'migakuFurigana' template filter to extract readings from migaku syntax.",
+    "version": "1.0.0",
+    "description": "Converts Migaku syntax annotations to HTML ruby tags for furigana display. Use {{migakuFurigana:FieldName}} in templates.",
     "author": "Patrick Elfert",
-    "support_url": "https://github.com/PatrickElfert"
-}
+    "support_url": "https://github.com/PatrickElfert/Migaku-Syntax-Furigana-Filter",
+    "max_point_version": 0
+}  
